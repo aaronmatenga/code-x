@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Coustard';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Coustard.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.page {
+  font-family: 'Coustard', sans-serif;
+  color: white;
+}
+
+.page__background {
+  background-color: #000000;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item {
+    padding: 10px;
+    line-height: 1;
+}
+
+.item-thum {
+    background-color: #ccc;
+    width: 80%;
+    border-radius: 4px;
+}
+
+.item-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.item-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.3;
+    margin: 4px 0 0 0;
+    padding: 0 30px 0 0;
+}
+
+.item-scroll {
+    width: 100%;
+}
+
+.color-select,
+.go-select {
+  height: 20%;
+}
+
+.num-select {
+  font-size: 12em;
+  font-family: monospace;
+  height: 60%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.company-info {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#num1_select {
+  padding: 10px;
+  text-align: right;
+}
+
+#num2_select {
+  padding: 10px;
+}
+
+#color_select,
+#go_button {
+  color: #ff0000;
+  font-size: 4em;
+  font-family: 'Coustard', sans-serif;
+}
+
+#go_button {
+  font-size: 4em;
+  width: 80%;
+  line-height: normal;
+}
