@@ -67,6 +67,10 @@
   width: 100%;
 }
 
+.homepage-image {
+  width: 90%;
+}
+
 .company-info {
   text-align: center;
   font-family: sans-serif;
@@ -90,6 +94,7 @@
 
 #go_button {
   font-size: 4em;
-  width: 80%;
+  padding: 0;
+  width: 100%;
   line-height: normal;
 }

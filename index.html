@@ -36,7 +36,7 @@
         <ons-row align="center" class="color-select">
           <ons-col id="color_select" class="center-text" ng-click="toggleColor('right')">
             <ons-gesture-detector ng-swipeleft="toggleColor('left')" ng-swiperight="toggleColor('right')">
-              CODE-X
+              <img id="title_image" class="homepage-image" src="images/codex-red.png">
             </ons-gesture-detector>
           </ons-col>
         </ons-row>
@@ -54,7 +54,9 @@
         </ons-row class="go-select">
         <ons-row align="center">
           <ons-col class="center-text">
-            <ons-button modifier="quiet" id="go_button" ng-click="showDetail()">Go</ons-button>
+            <ons-button modifier="quiet" id="go_button" ng-click="showDetail()">
+              <img id="go_image" class="homepage-image" src="images/graphic-red.png">
+            </ons-button>
           </ons-col>
         </ons-row>
       </ons-page>

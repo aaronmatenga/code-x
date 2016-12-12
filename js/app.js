@@ -40,8 +40,8 @@
           colorIndex = colorList.length - 1;
         }
       }
-      color_select.style.color = colorList[colorIndex];
-      go_button.style.color = colorList[colorIndex];
+      title_image.src = "images/codex-" + colorList[colorIndex] + ".png";
+      go_image.src = "images/graphic-" + colorList[colorIndex] + ".png";
     }
 
     $scope.toggleNum1 = function(direction) {
